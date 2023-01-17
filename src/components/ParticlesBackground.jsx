@@ -3,22 +3,19 @@ import { loadFull } from "tsparticles";
 
 const ParticlesBackground = () => {
   const particlesInit = async (main) => {
-
     await loadFull(main);
   };
 
-  const particlesLoaded = (container) => {
-    
-  };
+  const particlesLoaded = (container) => {};
   return (
     <Particles
       id="tsparticles"
       init={particlesInit}
       loaded={particlesLoaded}
       options={{
-        fullScreen:{
-          enable:true,
-          zIndex:-1,
+        fullScreen: {
+          enable: true,
+          zIndex: -1,
         },
         background: {
           color: {
@@ -73,4 +70,4 @@ const ParticlesBackground = () => {
   );
 };
 
-export default ParticlesBackground
+export default ParticlesBackground;
