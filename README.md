@@ -1,70 +1,39 @@
-# Getting Started with Create React App
+# Form Validation
 
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+This is a simple form validation built using React and class components. The form includes 5 fields: `username`, `email`, `birthday`, `password`, and `confirm password`. These fields are essential for creating an account or signing up on any website. 
 
-## Available Scripts
+## Live Demo
+You can see a live demo of the app at https://form-validation-idpy.onrender.com.
 
-In the project directory, you can run:
+## Background 
+The form features a visually appealing background using `react-tsparticles`. It's a library that allows you to add a particle background to your website easily. The background adds an aesthetic touch to the form and makes it more engaging for the user.
 
-### `npm start`
+## Form Requirements
+- `Username`: 3-16 characters, no special characters allowed. This requirement ensures that the username is easy to remember and not too long.
+- `Password`: 8-20 characters, must include at least one uppercase letter, one lowercase letter, one number, and one special character. This requirement ensures that the password is strong and secure.
 
-Runs the app in the development mode.\
-Open [http://localhost:3000](http://localhost:3000) to view it in your browser.
+### Additional Features
+-  Input fields will turn red if the input is invalid. This feature provides immediate feedback to the user, letting them know if their input is valid or not.
+-  A message will appear below the input fields if the input is invalid. This feature provides more detailed information on what's wrong with the input.
+-  A submit button will only be enabled if all the fields are valid. This feature prevents the form from being submitted if there are any errors.
+-  Form will only be submitted if all the fields are valid. This feature ensures that the form is only submitted if all the required fields are filled in correctly.
 
-The page will reload when you make changes.\
-You may also see any lint errors in the console.
+## Usage
+-  Clone or download the repository.
+-  Run `npm install` to install all the required dependencies.
+-  Run `npm start` to start the development server.
+-  The form can be accessed on `http://localhost:3000/`.
 
-### `npm test`
+## Customization
+The form validation can be easily customized to suit the needs of your project. You can add more fields, change the validation rules or adjust the design to match the look and feel of your website.
 
-Launches the test runner in the interactive watch mode.\
-See the section about [running tests](https://facebook.github.io/create-react-app/docs/running-tests) for more information.
+## Technologies Used
+- React.js 
+- react-tsparticles
+- HTML
+- CSS
 
-### `npm run build`
+This form validation is a great starting point for any project that requires user registration or login functionality. It's easy to set up and customize, and it provides a good user experience with its real-time validation and detailed error messages. 
 
-Builds the app for production to the `build` folder.\
-It correctly bundles React in production mode and optimizes the build for the best performance.
+Happy coding!
 
-The build is minified and the filenames include the hashes.\
-Your app is ready to be deployed!
-
-See the section about [deployment](https://facebook.github.io/create-react-app/docs/deployment) for more information.
-
-### `npm run eject`
-
-**Note: this is a one-way operation. Once you `eject`, you can't go back!**
-
-If you aren't satisfied with the build tool and configuration choices, you can `eject` at any time. This command will remove the single build dependency from your project.
-
-Instead, it will copy all the configuration files and the transitive dependencies (webpack, Babel, ESLint, etc) right into your project so you have full control over them. All of the commands except `eject` will still work, but they will point to the copied scripts so you can tweak them. At this point you're on your own.
-
-You don't have to ever use `eject`. The curated feature set is suitable for small and middle deployments, and you shouldn't feel obligated to use this feature. However we understand that this tool wouldn't be useful if you couldn't customize it when you are ready for it.
-
-## Learn More
-
-You can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
-
-To learn React, check out the [React documentation](https://reactjs.org/).
-
-### Code Splitting
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/code-splitting](https://facebook.github.io/create-react-app/docs/code-splitting)
-
-### Analyzing the Bundle Size
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size](https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size)
-
-### Making a Progressive Web App
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app](https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app)
-
-### Advanced Configuration
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/advanced-configuration](https://facebook.github.io/create-react-app/docs/advanced-configuration)
-
-### Deployment
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/deployment](https://facebook.github.io/create-react-app/docs/deployment)
-
-### `npm run build` fails to minify
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify](https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify)
