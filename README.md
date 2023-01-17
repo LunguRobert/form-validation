@@ -2,6 +2,9 @@
 
 This is a simple form validation built using React and class components. The form includes 5 fields: `username`, `email`, `birthday`, `password`, and `confirm password`. These fields are essential for creating an account or signing up on any website. 
 
+## Live Demo
+You can see a live demo of the app at https://form-validation-idpy.onrender.com.
+
 ## Background 
 The form features a visually appealing background using `react-tsparticles`. It's a library that allows you to add a particle background to your website easily. The background adds an aesthetic touch to the form and makes it more engaging for the user.
 
@@ -19,7 +22,7 @@ The form features a visually appealing background using `react-tsparticles`. It'
 -  Clone or download the repository.
 -  Run `npm install` to install all the required dependencies.
 -  Run `npm start` to start the development server.
--  The form can be accessed on https://form-validation-idpy.onrender.com.
+-  The form can be accessed on `http://localhost:3000/`.
 
 ## Customization
 The form validation can be easily customized to suit the needs of your project. You can add more fields, change the validation rules or adjust the design to match the look and feel of your website.
